@@ -54,7 +54,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -241,21 +241,21 @@ ul#nav li.current a { color: #0ceb5a; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 48px;
    overflow: hidden;
 }
 
 #skill{
-   padding-top: 50px;
+   padding-top: 8px;
    background: #fff;
    overflow: hidden;
 }
 
 #language{
-   padding-top: 50px;
+   padding-top: 8px;
    background: #fff;
-   padding-bottom: 72px;
    overflow: hidden;
+   padding-bottom: 32px;
 }
 
 #resume a, #skill a, #language a, #resume a:visited, #skill a:visited, #language a:visited { color: #11ABB0; }
@@ -280,11 +280,21 @@ ul#nav li.current a { color: #0ceb5a; }
 .education{
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #909090;
 }
-.work, .language{
+
+.work {
+   padding-top: 8px;
+}
+
+.work, .language, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
+   border-bottom: 1px solid #909090;
+}
+
+.skill {
+   padding-bottom: 0 !important;
 }
 
 #resume .info,#skill .info,#language .info{
@@ -352,33 +362,38 @@ ul#nav li.current a { color: #0ceb5a; }
    border-radius: 3px 0 0 3px;
 }
 
-.reactjs {
-  	width: 85%;
+.angular {
+  	width: 95%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 
-.photoshop {
-  	width: 70%;
+.solidity {
+  	width: 55%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.java {
+.material-design {
   	width: 85%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.mysql {
-  	width: 75%;
+.sass {
+   width: 80%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+.learn {
+  	width: 100%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.javascript {
-  	width: 75%;
+.problems {
+  	width: 95%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.php {
+.git {
   	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
@@ -462,8 +477,7 @@ ul#nav li.current a { color: #0ceb5a; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding: 80px 0;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -475,6 +489,12 @@ ul#nav li.current a { color: #0ceb5a; }
 }
 
 /* Portfolio Content */
+#portfolio-wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -487,9 +507,20 @@ ul#nav li.current a { color: #0ceb5a; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+
+.portfolio-item-meta {
+   display: flex !important;
+   flex-direction: column !important;
+}
+
+.no-margin-btm {
+   margin-bottom: 0;
 }
 
 /* overlay */
@@ -1054,3 +1085,7 @@ footer .social-links li:first-child { color: #0ceb5a; margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0ceb5a; }
+
+.margint-btm {
+   margin-bottom: 40px;
+}
