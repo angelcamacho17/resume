@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Angel Camacho",
-    "role": "Full-stack developer and software engineer student",
+    "role": "Expirienced software developer, entrepreneur and software engineer student",
     "linkedinId":"LinkedIn Id",
     "skypeid": "skypeid",
     "roleDescription": " Create, develop and promote top high quality products, regardless the effort it demands",
@@ -17,7 +17,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Expirience bilingual software programmer, developing and maintaining a powerful resource management application for wholesale companies in cache language (like a mini SAP), and also independently full-stack developing a webapp with spring boot, mysql and react. As a freelancer, I collaborate and strongly improve an insurance administrator webapp. I’m 21 years old and I study software engineering (3rd year). ",
+    "aboutme":"Expirienced bilingual software developer and entrepreneur. Developing and maintaining powerfull web apps, progressive web apps and native mobile apps. I'm eager to learn anything and at the moment, blockchain technology catches my attention a lot, which is why I am studying and experimenting with it lately. I love music, read and work out . I’m 21 years old and I study software engineering (4th year). ",
     "nationality":"Venezuelan",
     "address":"Cordoba, Argentina",
     "phone":"+54 01122506896",
