@@ -36,12 +36,12 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"SDP Belgium",
-        "specialization":"Software Programmer ",
+        "specialization":"Front-End Developer ",
         "MonthOfEntry":"Oct",
         "YearOfEntry":"2018",
         "MonthOfLeaving":"Present",
-        "Achievements":"Developing and maintaining a powerful resource management application for wholesale companies.",
-        "Link":"https://www.softwareseleccion.com/sdp+distripack-p-195"
+        "Achievements":"Developing and maintaining high-quality web applications, working with material design guidelines, in order to provide large, robust and extensible applications and bring the best possible user experience.",
+        "Link":"https://sdp.biz/"
       },
       {
         "CompanyName":"El Menu Virtual",
@@ -67,25 +67,31 @@ let resumeData = {
     "skillsDescription":"Skills",
     "skills":[
       {
-        "skillname":"Java"
+        "skillname":"Angular",
+        "class":"angular"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Material Design",
+        "class":"material-design"
+      },{
+        "skillname":"Sass",
+        "class":"sass"
       },
       {
-        "skillname":"MySQL"
+        "skillname":"Solidity",
+        "class":"solidity"
       },
-      {
-          "skillname":"Spring"
+        {
+          "skillname":"Git",
+          "class":"git"
         },
         {
-          "skillname":"JavaScript"
-        },
-        {
-          "skillname":"Php"
+          "skillname":"Eager to learn",
+          "class":"learn"
         },
          {
-           "skillname":"Photoshop"
+           "skillname":"Problems resolution",
+           "class":"problems"
          }
     ],
     "languagesDescription":"Languages",
@@ -102,9 +108,9 @@ let resumeData = {
         ],
     "portfolio":[
       {
-        "name":"AdminsegV3",
-        "description":"Management System, perfect for Agencies, Brokers, Companies and every professional in the insurance industry.",
-        "link":"https://adminsegv3.com/"
+        "name":"Employess attendance (from scratch)",
+        "description":"Attendance board to manage the information of all the employees of a certain company.",
+        "link":"https://employees-attendance.firebaseapp.com/#/"
       }
     ],
     "testimonials":[
