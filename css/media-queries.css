@@ -285,6 +285,10 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #portfolio-wrapper {     
+      display: flex;
+      flex-direction: column;
+   }
    .popup-modal {	max-width: 85%; }
 
 
@@ -398,8 +402,7 @@
 
    /* social links */
    footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }   
-
+   footer .social-links li { margin-left: 14px; }  
 }
 
 
