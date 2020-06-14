@@ -1,10 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Angel Camacho",
-    "role": "Expirienced software developer, entrepreneur and software engineer student",
+    "role": "Skilled developer, entrepreneur and software engineer student",
     "linkedinId":"LinkedIn Id",
     "skypeid": "skypeid",
-    "roleDescription": " Create, develop and promote top high quality products, regardless the effort it demands",
+    "roleDescription": "“We can only see a short distance ahead, but we can see plenty there that needs to be done.”",
+    "quote":"- Alan Turing, Computing machinery and intelligence.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -64,7 +65,7 @@ let resumeData = {
           "Link":"https://www.instagram.com/turismodeplaya/"
        }
     ],
-    "skillsDescription":"Skills",
+    "skillsDescription": "",
     "skills":[
       {
         "skillname":"Angular",
@@ -73,7 +74,16 @@ let resumeData = {
       {
         "skillname":"Material Design",
         "class":"material-design"
-      },{
+      },
+      {
+        "skillname":"Ngrx-Store",
+        "class":"ngrx"
+      },
+      {
+        "skillname":"React",
+        "class":"react"
+      },
+      {
         "skillname":"Sass",
         "class":"sass"
       },
@@ -81,20 +91,32 @@ let resumeData = {
         "skillname":"Solidity",
         "class":"solidity"
       },
+      {
+        "skillname":"Java",
+        "class":"java"
+      },
+      {
+        "skillname":"DevOps",
+        "class":"devsops"
+      },
+      {
+        "skillname":"Firebase",
+        "class":"firebase"
+      },
+      {
+        "skillname":"Scrum",
+        "class":"scrum"
+      },
+      {
+        "skillname":"Eager to learn",
+        "class":"learn"
+      },
         {
-          "skillname":"Git",
-          "class":"git"
-        },
-        {
-          "skillname":"Eager to learn",
-          "class":"learn"
-        },
-         {
-           "skillname":"Problems resolution",
-           "class":"problems"
-         }
+          "skillname":"Problems resolution",
+          "class":"problems"
+        }
     ],
-    "languagesDescription":"Languages",
+    "languagesDescription":"",
         "languages":[
           {
             "languagename":"Spanish"
@@ -108,9 +130,45 @@ let resumeData = {
         ],
     "portfolio":[
       {
-        "name":"Employess attendance (from scratch)",
+        "name":"Employess attendance (WebApp)",
         "description":"Attendance board to manage the information of all the employees of a certain company.",
-        "link":"https://employees-attendance.firebaseapp.com/#/"
+        "technology":"Angular 8 and Material Design (Front).",
+        "link":"https://employees-attendance.firebaseapp.com/#/",
+
+      },
+      {
+        "name":"Order admin for commerces(PWA)",
+        "description":"Admin orders to make faster the long lines in your commerce, by loading the orders before the customer gets to the register box.",
+        "technology":"Angular 9, Ngrx-Store and Material Design (Front).",
+        "link":"https://ecommerce-pwa-1717.firebaseapp.com/#/"
+      }
+    ],
+    "involved":[
+      {
+        "name":"SDP Era App (App)",
+        "description":"Era is an application for the everyday employee.Allows the user to make clock registrations, giving the company reliable data about work hours and daymarkins.",
+        "technology":"Angular 9 and Ionic (Front).",
+        "link":"https://apps.apple.com/ar/app/sdp-era-app/id1164839573",
+      },
+      {
+        "name":"Adminseg v3",
+        "description":"Agency Management Software.",
+        "technology":"Php, symphony 3.2 (Full-Stack).",
+        "link":"http://www.adminsegv3.com/",
+      },
+      {
+        "name":"SDP Distripack",
+        "description":"Powerful resource management application for wholesale companies.",
+        "technology":"M (Backend).",
+        "link":"https://www.softwareseleccion.com/sdp+distripack-p-195",
+      },
+    ],
+    "practice":[
+      {
+        "name":"Twitther (WebApp)",
+        "description":"Little app where you can create post tweets, tip tweets and follow other ropsten ethereum accounts to read their private tweets.",
+        "technology":"Angular 9 and Meterial Design(Front), smart contract in solidity (backend).",
+        "link":"https://twitther-bb16f.firebaseapp.com/",
       }
     ],
     "testimonials":[

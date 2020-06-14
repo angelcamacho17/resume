@@ -192,8 +192,7 @@ ul#nav li.current a { color: #0ceb5a; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding: 96px 0;
    overflow: hidden;
 }
 
@@ -241,18 +240,18 @@ ul#nav li.current a { color: #0ceb5a; }
 
 #resume {
    background: #fff;
-   padding-top: 48px;
+   padding-top: 52px;
    overflow: hidden;
 }
 
 #skill{
-   padding-top: 8px;
+   padding-top: 60px;
    background: #fff;
    overflow: hidden;
 }
 
 #language{
-   padding-top: 8px;
+   padding-top: 60px;
    background: #fff;
    overflow: hidden;
    padding-bottom: 32px;
@@ -368,11 +367,49 @@ ul#nav li.current a { color: #0ceb5a; }
   	-webkit-animation: photoshop 2s ease;
 }
 
+.react {
+   width: 60%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.ngrx {
+   width: 70%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
 .solidity {
   	width: 55%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
+
+.java {
+   width: 60%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.devsops {
+   width: 75%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.firebase {
+   width: 65%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.scrum {
+   width: 80%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+
 .material-design {
   	width: 85%;
   	-moz-animation: illustrator 2s ease;

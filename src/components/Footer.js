@@ -23,7 +23,11 @@ export default class Footer extends Component {
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
       </div>
-      <h6 style={{color:'#bfbebb', fontFamily:'sans-serif '}}>This webpage is developed with React.js by Angel Camacho</h6>
+      <h6 style={{margin: '72px',
+                  display: 'flex',
+                  'justify-content': 'center', 
+                  color:'#bfbebb', 
+                  fontFamily:'sans-serif '}}>This webpage is developed with React.js by Angel Camacho</h6>
     </footer>
     );
   }
