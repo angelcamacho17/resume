@@ -9,7 +9,7 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"http://linkedin.com/in/angel-camacho-479780125",
+          "url":"http://linkedin.com/in/angelcamacho17",
           "className":"fa fa-linkedin"
         },
         {
@@ -18,7 +18,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Expirienced bilingual software developer and entrepreneur. Developing and maintaining powerfull web apps, progressive web apps and native mobile apps. I'm eager to learn anything and at the moment, blockchain technology catches my attention a lot, which is why I am studying and experimenting with it lately. I love music, read and work out . I’m 21 years old and I study software engineering (4th year). ",
+    "aboutme":"I'm a bilingual software developer and entrepreneur. Developing and maintaining powerfull web apps, progressive web apps and native mobile apps. I'm eager to learn anything and at the moment, blockchain technology catches my attention a lot, which is why I am studying and experimenting with it lately. I love music, read and work out . I’m 21 years old and I study software engineering (4th year). ",
     "nationality":"Venezuelan",
     "address":"Cordoba, Argentina",
     "phone":"+54 01122506896",
@@ -166,7 +166,7 @@ let resumeData = {
     "practice":[
       {
         "name":"Twitther (WebApp)",
-        "description":"Little app where you can create post tweets, tip tweets and follow other ropsten ethereum accounts to read their private tweets.",
+        "description":"Little app where you can tweet, tip tweets and follow other ropsten ethereum accounts to read their private tweets.",
         "technology":"Angular 9 and Meterial Design(Front), smart contract in solidity (backend).",
         "link":"https://twitther-bb16f.firebaseapp.com/",
       }
