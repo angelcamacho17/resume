@@ -301,6 +301,11 @@ ul#nav li.current a { color: #0ceb5a; }
    margin-top: 6px;
 }
 
+li {
+   list-style: disc;
+   margin-left: 20px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

@@ -18,13 +18,21 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I'm a bilingual software developer and entrepreneur. Developing and maintaining powerfull web apps, progressive web apps and native mobile apps. I'm eager to learn anything and at the moment, blockchain technology catches my attention a lot, which is why I am studying and experimenting with it lately. I love music, read and work out . I’m 21 years old and I study software engineering (4th year). ",
+    "aboutme":"Frontend developer and software analyst with +3 years working with Angular, JavaScript, HTML and CSS, technologies with experience in web apps, progressive web apps and native apps. Disciplined and committed with anything I do. Quality oriented in work. Easy to partner with, adaptable and always looking to improve myself. I'm eager to learn, especially IT wise. I love music, read and working out. ",
     "nationality":"Venezuelan",
-    "address":"Cordoba, Argentina",
-    "phone":"+54 01122506896",
-    "age":"21",
+    "address":"",
+    "phone":"+54 1122506896",
+    "age":"22",
     "mail":"angelcamacho1708@gmail.com",
     "education":[
+      {
+        "UniversityName":"Universidad Siglo 21",
+        "specialization":"Software Analyst",
+        "MonthOfEntry":"Mar",
+        "YearOfEntry":"2016",
+        "MonthOfPassing":"2020",
+        "Achievements":""
+      },
       {
         "UniversityName":"Universidad Siglo 21",
         "specialization":"Software Engineer",
@@ -36,12 +44,45 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"XUP Payments",
+        "specialization":"Semisenior Front-End Developer",
+        "MonthOfEntry":"Feb",
+        "YearOfEntry":"2020",
+        "MonthOfLeaving":"Feb",
+        "YearOfLeaving":"2021",
+        "Achievements":[
+          "Development from scratch of the entire frontend of a webapp for the monitoring of critical information for commercial transactions.",
+          "Design and implementation of ux and ui for mobile screens.",
+          "Improved memory performance for an onboarding application."  
+        ],
+        "Link":"https://xuppay.com"
+      },
+      {
+        "CompanyName":"Reveniu",
+        "specialization":"Lead Front-End Developer",
+        "MonthOfEntry":"Oct",
+        "YearOfEntry":"2020",
+        "MonthOfLeaving":"Present",
+        "Achievements":[
+          "Reengineering of the entire front-end of the application.",
+          "Optimization of the function modules and the architecture of the angular application.",
+          "Get over 20% in page load speed after reengineering.",
+          "Updated html components with angular material"  
+        ],
+        "Link":"https://reveniu.com"
+      },
+      {
         "CompanyName":"SDP Belgium",
         "specialization":"Front-End Developer ",
         "MonthOfEntry":"Oct",
         "YearOfEntry":"2018",
-        "MonthOfLeaving":"Present",
-        "Achievements":"Developing and maintaining high-quality web applications, working with material design guidelines, in order to provide large, robust and extensible applications and bring the best possible user experience.",
+        "MonthOfLeaving":"Oct",
+        "YearOfLeaving":"2020",
+        "Achievements":[
+          "Developed progressive web apps with Angular 9, Sass, Angular Material and Ngrx-store for retail and supermarkets businesses. The solutions included improvement of the payment process, the stock information, and all the solutions were connected with a back-office service. The implementation of the system, following the google design guidelines, improved the user experience in the commerce and allowed the companies to save around 20% in the regular budget/processes time. ",
+          "Developed a human resource platform with Angular 8, Sass and Angular Material for big traditional companies with more than 500 employees. This solution included to control the presence and manage time at various levels: plan and organize days, control absenteeism, export data, print reports, etc. This web app provides value information for the management department to streamline organizational processes around 30%, by avoiding confusions, loss of paper and misunderstandings.",
+          "Implemented redux pattern in both solutions, that improved the state management using Ngrx-store. This allowed us to improve our data administration and get more stable, extendible and traceable products. Making our products 30% more fast, light and robust."      
+        ],
         "Link":"https://sdp.biz/"
       },
       {
@@ -51,19 +92,9 @@ let resumeData = {
         "YearOfEntry":"2016",
         "MonthOfLeaving":"Feb",
         "YearOfLeaving":"2018",
-        "Achievements":"I worked as the webmaster and I was in charge of the maintenance, features and bug fixes. By the time I started worked in the webpage, I increase its visits a 30% applying a strong strategy of SEO",
+        "Achievements":["Maintained and managed the website as the webmaster using Adobe Dreamweaver 6. This webpage is meant to provide all the information of all restaurants of Venezuela as quick and accurate as possible. By the time I got on the webpage, it increased the visits by 30%, applying a strong strategy of SEO and refactoring some HTML code to get a better qualification in the search engines and make it more visible. This increased the interactions of the users of the page with the restaurants around 10%."],
         "Link":"http://www.elmenuvirtual.com/"
-      },
-      {
-          "CompanyName":"Turismo de Playa",
-          "specialization":"Marketing Team",
-          "MonthOfEntry":"Aug",
-          "YearOfEntry":"2015",
-          "MonthOfLeaving":"Feb",
-          "YearOfLeaving":"2016",
-          "Achievements":"I was able to worked, along professionals in the area, in all the social media of the webpage, increasing the followers a 120% since the day I got in, reaching more than 70.000 followers on Instagram.",
-          "Link":"https://www.instagram.com/turismodeplaya/"
-       }
+      }
     ],
     "skillsDescription": "",
     "skills":[
@@ -95,14 +126,14 @@ let resumeData = {
         "skillname":"Java",
         "class":"java"
       },
-      {
-        "skillname":"DevOps",
-        "class":"devsops"
-      },
-      {
-        "skillname":"Firebase",
-        "class":"firebase"
-      },
+      // {
+      //   "skillname":"DevOps",
+      //   "class":"devsops"
+      // },
+      // {
+      //   "skillname":"Firebase",
+      //   "class":"firebase"
+      // },
       {
         "skillname":"Scrum",
         "class":"scrum"
@@ -182,7 +213,7 @@ let resumeData = {
       }
     ],
     "mail":"angelcamacho1708@gmail.com",
-    "phone":"01122506896"
+    "phone":"+54 1122506896"
   }
 
   export default resumeData;
