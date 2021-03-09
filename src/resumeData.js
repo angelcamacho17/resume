@@ -161,6 +161,12 @@ let resumeData = {
         ],
     "portfolio":[
       {
+        "name":"Servicing dashboard",
+        "description":"Back office dashboard to display critical and important metrics for any of the customers (commerce)",
+        "technology":"Angular 8 and Material Design (Front).",
+        "link":"https://dev.xupservicing.com/",
+      },
+      {
         "name":"Employess attendance (WebApp)",
         "description":"Attendance board to manage the information of all the employees of a certain company.",
         "technology":"Angular 8 and Material Design (Front).",
