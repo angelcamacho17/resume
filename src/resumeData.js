@@ -48,8 +48,7 @@ let resumeData = {
         "specialization":"Semisenior Front-End Developer",
         "MonthOfEntry":"Feb",
         "YearOfEntry":"2020",
-        "MonthOfLeaving":"Feb",
-        "YearOfLeaving":"2021",
+        "MonthOfLeaving":"Present",
         "Achievements":[
           "Development from scratch of the entire frontend of a webapp for the monitoring of critical information for commercial transactions.",
           "Design and implementation of ux and ui for mobile screens.",
@@ -62,7 +61,8 @@ let resumeData = {
         "specialization":"Lead Front-End Developer",
         "MonthOfEntry":"Oct",
         "YearOfEntry":"2020",
-        "MonthOfLeaving":"Present",
+        "MonthOfLeaving":"Feb",
+        "YearOfLeaving":"2021",
         "Achievements":[
           "Reengineering of the entire front-end of the application.",
           "Optimization of the function modules and the architecture of the angular application.",
