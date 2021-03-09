@@ -298,7 +298,7 @@ ul#nav li.current a { color: #0ceb5a; }
 
 #resume .info,#skill .info,#language .info{
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: rgba(0, 0, 0, .87);
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -309,6 +309,13 @@ ul#nav li.current a { color: #0ceb5a; }
 #resume .date,#skill .date,#language .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+li {
+   list-style: disc;
+   margin-left: 20px;
+   line-height: 25px;
+   color: rgba(0, 0, 0, .6);
 }
 
 /*----------------------------------------------*/
@@ -404,19 +411,19 @@ ul#nav li.current a { color: #0ceb5a; }
 }
 
 .scrum {
-   width: 80%;
+   width: 90%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
 
 
 .material-design {
-  	width: 85%;
+  	width: 90%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .sass {
-   width: 80%;
+   width: 85%;
    -moz-animation: wordpress 2s ease;
    -webkit-animation: wordpress 2s ease;
 }
@@ -442,7 +449,7 @@ ul#nav li.current a { color: #0ceb5a; }
   	-webkit-animation: html5 2s ease;
 }
 .english {
-  	width: 85%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }

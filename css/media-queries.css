@@ -427,6 +427,10 @@
    #achievements { 
       display: none;
    }
+   li {
+      list-style: disc;
+      margin-left: 20px;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */
