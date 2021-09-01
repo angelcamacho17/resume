@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Angel Camacho",
-    "role": "Skilled developer, entrepreneur and software engineer student",
+    "role": "Semi Senior Software Developer, Software Analyst",
     "linkedinId":"LinkedIn Id",
     "skypeid": "skypeid",
     "roleDescription": "“We can only see a short distance ahead, but we can see plenty there that needs to be done.”",
@@ -18,7 +18,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Frontend developer and software analyst with +3 years working with Angular, JavaScript, HTML and CSS, technologies with experience in web apps, progressive web apps and native apps. Disciplined and committed with anything I do. Quality oriented in work. Easy to partner with, adaptable and always looking to improve myself. I'm eager to learn, especially IT wise. I love music, read and working out. ",
+    "aboutme":"Frontend developer with +4 years working with Angular, JavaScript, HTML and CSS, technologies with experience in web apps, progressive web apps and native apps. Disciplined and committed with anything I do. Quality oriented in work. Easy to partner with, adaptable and always looking to improve myself. I'm eager to learn, especially IT wise. I love music, read and working out",
     "nationality":"Venezuelan",
     "address":"",
     "phone":"+54 1122506896",
