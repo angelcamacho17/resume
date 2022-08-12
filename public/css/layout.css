@@ -374,8 +374,33 @@ ul#nav li.current a { color: #0ceb5a; }
   	-webkit-animation: photoshop 2s ease;
 }
 
+
 .react {
-   width: 60%;
+   width: 95%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.design-patterns {
+   width: 100%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.arch-patterns{
+   width: 90%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.oop{
+   width: 100%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
+.git {
+   width: 100%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }

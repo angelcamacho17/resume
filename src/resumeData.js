@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Angel Camacho",
-    "role": "Semi Senior Software Developer, Software Analyst",
+    "role": "Senior Software Engineer, Frontend Developer",
     "linkedinId":"LinkedIn Id",
     "skypeid": "skypeid",
     "roleDescription": "“We can only see a short distance ahead, but we can see plenty there that needs to be done.”",
@@ -18,13 +18,20 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Frontend developer with +4 years working with Angular, JavaScript, HTML and CSS, technologies with experience in web apps, progressive web apps and native apps. Disciplined and committed with anything I do. Quality oriented in work. Easy to partner with, adaptable and always looking to improve myself. I'm eager to learn, especially IT wise. I love music, read and working out",
+    "aboutme":"Senior software engineer with +5 years of expirience developing amazing front-end applications and progressive web apps. Expirienced with Angular, React, TypeScript, Functional Programming, JavaScript, Ionic, HTML5 and SCSS technologies. Disciplined, natural leader and committed professional. Quality-oriented in work and eager to learn new technologies. Easy to partner with, adaptable, and always looking to improve my work environment. Love sports, play the guitar, and dance.",
     "nationality":"Venezuelan",
     "address":"",
     "phone":"+54 1122506896",
-    "age":"22",
     "mail":"angelcamacho1708@gmail.com",
     "education":[
+      {
+        "UniversityName":"Universidad Siglo 21",
+        "specialization":"Software Engineer",
+        "MonthOfEntry":"Mar",
+        "YearOfEntry":"2016",
+        "MonthOfPassing":"2022",
+        "Achievements":""
+      },
       {
         "UniversityName":"Universidad Siglo 21",
         "specialization":"Software Analyst",
@@ -33,16 +40,21 @@ let resumeData = {
         "MonthOfPassing":"2020",
         "Achievements":""
       },
-      {
-        "UniversityName":"Universidad Siglo 21",
-        "specialization":"Software Engineer",
-        "MonthOfEntry":"Mar",
-        "YearOfEntry":"2016",
-        "MonthOfPassing":"Present",
-        "Achievements":""
-      }
     ],
     "work":[
+      {
+        "CompanyName":"Amplify",
+        "specialization":"Senior Software Engineer | Front-End Developer",
+        "MonthOfEntry":"April",
+        "YearOfEntry":"2022",
+        "MonthOfLeaving":"Present",
+        "Achievements":[
+          "Develop and architectured a micro-frontend application to be use by many other applications.",
+          "Increased scalabitly, extensibility and performance in exisiting legacy project by applying SOLID principles and design patterns.",
+          "Taking owneship and resposibility for the implemantion and architecture of a new internal library."  
+        ],
+        "Link":"https://amplify.com"
+      },
       {
         "CompanyName":"XUP Payments",
         "specialization":"Semisenior Front-End Developer",
@@ -103,16 +115,32 @@ let resumeData = {
         "class":"angular"
       },
       {
-        "skillname":"Material Design",
+        "skillname":"React",
+        "class":"react"
+      },
+      {
+        "skillname":"Design Patterns",
+        "class":"design-patterns"
+      },
+      {
+        "skillname":"Architectural Patterns",
+        "class":"arch-patterns"
+      },
+      {
+        "skillname":"OOP",
+        "class":"oop"
+      },
+      {
+        "skillname":"GIT",
+        "class":"git"
+      },
+      {
+        "skillname":"Angular Material",
         "class":"material-design"
       },
       {
         "skillname":"Ngrx-Store",
         "class":"ngrx"
-      },
-      {
-        "skillname":"React",
-        "class":"react"
       },
       {
         "skillname":"Sass",
@@ -126,26 +154,18 @@ let resumeData = {
         "skillname":"Java",
         "class":"java"
       },
-      // {
-      //   "skillname":"DevOps",
-      //   "class":"devsops"
-      // },
-      // {
-      //   "skillname":"Firebase",
-      //   "class":"firebase"
-      // },
+      {
+        "skillname":"Firebase",
+        "class":"firebase"
+      },
       {
         "skillname":"Scrum",
         "class":"scrum"
       },
       {
-        "skillname":"Eager to learn",
-        "class":"learn"
-      },
-        {
-          "skillname":"Problems resolution",
-          "class":"problems"
-        }
+        "skillname":"Problems resolution",
+        "class":"problems"
+      }
     ],
     "languagesDescription":"",
         "languages":[

@@ -17,9 +17,9 @@ export default  class Resume extends Component {
                   return(
                     <div className="row item">
                        <div className="twelve columns margint-btm">
-                          <h3>{item.UniversityName}</h3>
+                          <h3>{item.specialization}</h3>
                           <p className="info">
-                          {item.specialization}
+                          {item.UniversityName}
                           <span>&bull;</span> <em className="date">{item.MonthOfEntry} {item.YearOfEntry} - {item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           
                        </div>
