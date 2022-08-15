@@ -369,7 +369,7 @@ ul#nav li.current a { color: #0ceb5a; }
 }
 
 .angular {
-  	width: 95%;
+  	width: 100%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -406,7 +406,7 @@ ul#nav li.current a { color: #0ceb5a; }
 }
 
 .ngrx {
-   width: 70%;
+   width: 85%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
@@ -430,7 +430,7 @@ ul#nav li.current a { color: #0ceb5a; }
 }
 
 .firebase {
-   width: 65%;
+   width: 75%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
@@ -448,7 +448,7 @@ ul#nav li.current a { color: #0ceb5a; }
   	-webkit-animation: illustrator 2s ease;
 }
 .sass {
-   width: 85%;
+   width: 90%;
    -moz-animation: wordpress 2s ease;
    -webkit-animation: wordpress 2s ease;
 }
@@ -458,14 +458,9 @@ ul#nav li.current a { color: #0ceb5a; }
   	-webkit-animation: wordpress 2s ease;
 }
 .problems {
-  	width: 95%;
+  	width: 100%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
-}
-.git {
-  	width: 70%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
 }
 
 .spanish {
