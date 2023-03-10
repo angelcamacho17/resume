@@ -56,6 +56,19 @@ let resumeData = {
         "Link":"https://amplify.com"
       },
       {
+        "CompanyName":"Stronger U",
+        "specialization":"Senior Software Engineer | Front-End Developer",
+        "MonthOfEntry":"Freelance",
+        "YearOfEntry":"-",
+        "MonthOfLeaving":"-",
+        "Achievements":[
+          "Improve user interface and user experience in the inner chat app.",
+          "Increased performance for data filtering using algorithyms like merge sort.",
+          "Full responsibility of the web application, taking architectures decisions to improve code scalability."  
+        ],
+        "Link":"https://dna.strongeru.com/"
+      },
+      {
         "CompanyName":"XUP Payments",
         "specialization":"Semisenior Front-End Developer",
         "MonthOfEntry":"Feb",
@@ -163,6 +176,10 @@ let resumeData = {
         "class":"scrum"
       },
       {
+        "skillname":"ThreeJS",
+        "class":"java"
+      },
+      {
         "skillname":"Problems resolution",
         "class":"problems"
       }
@@ -181,23 +198,16 @@ let resumeData = {
         ],
     "portfolio":[
       {
-        "name":"Servicing dashboard",
-        "description":"Back office dashboard to display critical and important metrics for any of the customers (commerce)",
-        "technology":"Angular 8 and Material Design (Front).",
-        "link":"https://dev.xupservicing.com/",
+        "name":"Be Clear",
+        "description":"Create a brief summary for your daily meetings attendees so everybody get context.",
+        "technology":"Angular 13 and Material Design (Front). Firebase.",
+        "link":"https://beclear-ok.web.app/",
       },
       {
-        "name":"Employess attendance (WebApp)",
-        "description":"Attendance board to manage the information of all the employees of a certain company.",
-        "technology":"Angular 8 and Material Design (Front).",
-        "link":"https://employees-attendance.firebaseapp.com/#/",
-
-      },
-      {
-        "name":"Order admin for commerces(PWA)",
-        "description":"Admin orders to make faster the long lines in your commerce, by loading the orders before the customer gets to the register box.",
-        "technology":"Angular 9, Ngrx-Store and Material Design (Front).",
-        "link":"https://ecommerce-pwa-1717.firebaseapp.com/#/"
+        "name":"BitBang",
+        "description":"ThreeJS project I made for myself (just for fun)",
+        "technology":"ThreeJS",
+        "link":"https://bit-bang.web.app/",
       }
     ],
     "involved":[
